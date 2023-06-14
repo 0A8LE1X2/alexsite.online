@@ -1,0 +1,400 @@
+     /*menu*/
+     .menu {
+      display: flex;
+      justify-content: center;
+      background-color: blue;
+      border-radius: 10px;
+      padding: 10px;
+    }  
+    .menu a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+    
+    .menu a:hover {
+      background-color: white;
+      color: blue;
+    }
+    
+    /*NBA TITULOS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ababac url("imagens/450px-Walter_A_Brown_Trophy.jpg");
+      background: #ababac url("imagens/trofeus-da-75-temporada-da-nba-1652377378733_v2_3x4.jpg");
+    }
+    
+    .container {
+      max-width: 960px;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    h1, h2 {
+      text-align: center;
+      color: #333;
+    }
+    
+    figure {
+      margin: 20px 0;
+      text-align: center;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    figcaption {
+      color: #666;
+      line-height: 1.5;
+    }
+    
+    a {
+      display: block;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+    }
+    /*NBA A MAIOR LIGA*/
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ababac url("imagens/Olympic_Tower_NY_by_David_Shankbone.jpg");
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+a {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+p {
+  color: #333;
+  line-height: 1.5;
+}
+
+p:last-child {
+  color: red;
+  font-weight: bold;
+}
+
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  color: #666;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+li {
+  text-align: left;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ababac url("imagens/download.jpg");
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+a {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+p {
+  color: #333;
+  line-height: 1.5;
+}
+
+p:last-child {
+  color: red;
+  font-weight: bold;
+}
+
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  color: #666;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+li {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
+/*POSIÇÕES E FUNÇOES */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #fff;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #fff;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+a {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  width: 200px;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #000;
+}
+/*TERMOS**/
+body {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+h1 {
+  border: none;
+  text-decoration-color: #ffffff;
+  margin: 20px 0;
+}
+
+ol {
+  text-align: left;
+  margin-left: 40px;
+}
+p{
+  background-color: #fdfdfd;
+  border: #000;
+}
+
+figure {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  background: #ababac url("imagens/image3.jpg");
+  background: #ababac url("imagens/image7.jpg");
+  background: #ababac url("imagens/Nikola-Jokic-20001000500-1024x683.jpg");
+}
+/*animes*/
+body {
+  background: #ffffff; 
+  margin: 0; 
+  padding: 20px; 
+  font-family: Arial, sans-serif; 
+}
+
+h1 {
+  text-align: center; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  margin-bottom: 20px; 
+}
+
+video {
+  display: block; 
+  margin: 0 auto 20px; 
+  border-radius: 10px;
+  max-width: 100%; 
+}
+
+a {
+  display: block;
+  text-align: center; 
+  font-size: 30px; 
+  margin-top: 20px; 
+}
+/*basquete nas olimpiadas*/
+body {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+/*basquete no brasil*/
+h1,h3,h4 {
+  color: #000;
+  text-align: center;
+  text-shadow: 2px 2px 4px;
+}
